@@ -1,0 +1,97 @@
+:root{
+ --primary-text-color: #323643;
+ --primary-background-color:#93deff;
+ --primary-form-color: #f7f7f7;
+ --button-color: #606470;
+ ;
+}
+body{
+    background-color: var(--primary-background-color); 
+    color:var(--primary-text-color);
+    
+}
+
+.container{
+    margin: 120px auto;
+    max-width: 600px;
+}
+header{
+    margin-bottom: 30px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+}
+main{
+    
+}
+form{
+    padding: 30px;
+    background-color: var(--primary-form-color);
+    border-radius: 5px;
+    box-shadow: 0px 20px 20px var(--button-color, 0.4) ;
+    display: flex;
+    margin-bottom: 30px;
+}
+.prompt{
+    border: 1px solid rgba(39,33, 66, 0.5);
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px;
+    width:80%;
+
+}
+.button{
+    background-color:var(--button-color) ;
+    color: var(--primary-form-color);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 14px 24px;
+    width:150px;
+}
+.button:hover{
+    opacity: .8;
+}
+.recipe{
+    border-left: 3px solid var(--button-color);
+    box-shadow: 0px 20px 20px var(--button-color, 0.4) ;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--primary-form-color);
+    line-height: 2;
+    padding: 20px;
+}
+footer{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: center;
+}
+a{
+    color: var(--primary-text-color);
+    font-weight: 700;
+}
+
+
+.first-color { 
+	background: #323643; 
+}
+	
+.second-color { 
+	background: #606470; 
+}
+
+.third-color { 
+	background: #93deff; 
+}
+
+.fourth-color { 
+	background: #f7f7f7; 
+}
