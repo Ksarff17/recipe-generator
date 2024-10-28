@@ -12,7 +12,7 @@ function displayGeneratedRecipe(response){
 function generateRecipe(event){
     event.preventDefault();
 
-    let apiKey = "7o60e48082t80b65afac13511e68bed5";
+    let apiKey = "";
     let userInstructions = document.querySelector("#user-instructions")
     let prompt = `Generate a thirty minute or less ${userInstructions.value} recipe`
     let context = "You are a world renowned cheff.please provide a simple and concise recipe. provide recipe in basic HTML list format"
