@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
     <title>Recipe Generator</title>
 </head>
 <body>
@@ -14,7 +15,14 @@
     </header>
     <main>
         <form id="form-generator">
-            <input type="text" class="prompt" autocomplete="off" autofocus placeholder="What type of food do you want to make?">
+            <input 
+            type="text" 
+            class="prompt"
+            id="user-instructions" 
+            autocomplete="off" 
+            autofocus
+            required
+            placeholder="What type of food do you want to make?">
             <input type="submit" class="button">
         </form>
         <div class="recipe" id="recipe"></div>
